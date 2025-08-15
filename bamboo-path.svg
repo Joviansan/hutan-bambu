@@ -1,0 +1,120 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pathGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8f0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8f5e8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bambooGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a7c59;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d5016;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="groundGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#pathGradient)"/>
+  
+  <!-- Ground -->
+  <ellipse cx="200" cy="280" rx="200" ry="20" fill="url(#groundGradient)"/>
+  
+  <!-- Jalur setapak -->
+  <path d="M50 300 Q100 250 150 280 Q200 250 250 270 Q300 240 350 260 Q380 250 400 255" 
+        stroke="#8B4513" stroke-width="15" fill="none" opacity="0.7"/>
+  <path d="M50 300 Q100 250 150 280 Q200 250 250 270 Q300 240 350 260 Q380 250 400 255" 
+        stroke="#A0522D" stroke-width="10" fill="none" opacity="0.8"/>
+  <path d="M50 300 Q100 250 150 280 Q200 250 250 270 Q300 240 350 260 Q380 250 400 255" 
+        stroke="#D2B48C" stroke-width="5" fill="none" opacity="0.9"/>
+  
+  <!-- Bambu kiri -->
+  <rect x="20" y="50" width="10" height="200" fill="url(#bambooGradient)" rx="5"/>
+  <rect x="40" y="30" width="10" height="220" fill="url(#bambooGradient)" rx="5"/>
+  <rect x="60" y="40" width="10" height="210" fill="url(#bambooGradient)" rx="5"/>
+  <rect x="80" y="20" width="10" height="230" fill="url(#bambooGradient)" rx="5"/>
+  <rect x="100" y="35" width="10" height="215" fill="url(#bambooGradient)" rx="5"/>
+  
+  <!-- Ruas bambu kiri -->
+  <g stroke="#2d5016" stroke-width="1.5" opacity="0.8">
+    <line x1="20" y1="80" x2="30" y2="80"/>
+    <line x1="20" y1="120" x2="30" y2="120"/>
+    <line x1="20" y1="160" x2="30" y2="160"/>
+    <line x1="20" y1="200" x2="30" y2="200"/>
+    
+    <line x1="40" y1="70" x2="50" y2="70"/>
+    <line x1="40" y1="110" x2="50" y2="110"/>
+    <line x1="40" y1="150" x2="50" y2="150"/>
+    <line x1="40" y1="190" x2="50" y2="190"/>
+    <line x1="40" y1="230" x2="50" y2="230"/>
+    
+    <line x1="60" y1="80" x2="70" y2="80"/>
+    <line x1="60" y1="120" x2="70" y2="120"/>
+    <line x1="60" y1="160" x2="70" y2="160"/>
+    <line x1="60" y1="200" x2="70" y2="200"/>
+  </g>
+  
+  <!-- Bambu kanan -->
+  <rect x="290" y="45" width="10" height="205" fill="url(#bambooGradient)" rx="5"/>
+  <rect x="310" y="25" width="10" height="225" fill="url(#bambooGradient)" rx="5"/>
+  <rect x="330" y="35" width="10" height="215" fill="url(#bambooGradient)" rx="5"/>
+  <rect x="350" y="15" width="10" height="235" fill="url(#bambooGradient)" rx="5"/>
+  <rect x="370" y="30" width="10" height="220" fill="url(#bambooGradient)" rx="5"/>
+  
+  <!-- Ruas bambu kanan -->
+  <g stroke="#2d5016" stroke-width="1.5" opacity="0.8">
+    <line x1="290" y1="85" x2="300" y2="85"/>
+    <line x1="290" y1="125" x2="300" y2="125"/>
+    <line x1="290" y1="165" x2="300" y2="165"/>
+    <line x1="290" y1="205" x2="300" y2="205"/>
+    
+    <line x1="310" y1="65" x2="320" y2="65"/>
+    <line x1="310" y1="105" x2="320" y2="105"/>
+    <line x1="310" y1="145" x2="320" y2="145"/>
+    <line x1="310" y1="185" x2="320" y2="185"/>
+    <line x1="310" y1="225" x2="320" y2="225"/>
+  </g>
+  
+  <!-- Daun bambu -->
+  <g fill="#4a7c59" opacity="0.7">
+    <!-- Daun kiri -->
+    <path d="M30 60 Q35 55 40 60 Q35 70 30 75 Q25 65 30 60"/>
+    <path d="M50 40 Q55 35 60 40 Q55 50 50 55 Q45 45 50 40"/>
+    <path d="M70 50 Q75 45 80 50 Q75 60 70 65 Q65 55 70 50"/>
+    <path d="M90 30 Q95 25 100 30 Q95 40 90 45 Q85 35 90 30"/>
+    
+    <!-- Daun kanan -->
+    <path d="M300 55 Q295 50 290 55 Q295 65 300 70 Q305 60 300 55"/>
+    <path d="M320 35 Q315 30 310 35 Q315 45 320 50 Q325 40 320 35"/>
+    <path d="M340 45 Q335 40 330 45 Q335 55 340 60 Q345 50 340 45"/>
+    <path d="M360 25 Q355 20 350 25 Q355 35 360 40 Q365 30 360 25"/>
+  </g>
+  
+  <!-- Batu-batu kecil di jalur -->
+  <g fill="#696969" opacity="0.6">
+    <ellipse cx="120" cy="270" rx="3" ry="2"/>
+    <ellipse cx="180" cy="260" rx="4" ry="3"/>
+    <ellipse cx="220" cy="265" rx="3" ry="2"/>
+    <ellipse cx="280" cy="255" rx="5" ry="3"/>
+    <ellipse cx="320" cy="250" rx="3" ry="2"/>
+  </g>
+  
+  <!-- Efek cahaya -->
+  <g opacity="0.3">
+    <circle cx="150" cy="100" r="20" fill="#fff9c4"/>
+    <circle cx="250" cy="80" r="15" fill="#fff9c4"/>
+    <circle cx="200" cy="120" r="18" fill="#fff9c4"/>
+  </g>
+  
+  <!-- Rumput kecil -->
+  <g stroke="#4a7c59" stroke-width="2" opacity="0.5">
+    <path d="M130 275 Q132 270 134 275"/>
+    <path d="M135 273 Q137 268 139 273"/>
+    <path d="M170 268 Q172 263 174 268"/>
+    <path d="M175 266 Q177 261 179 266"/>
+    <path d="M210 272 Q212 267 214 272"/>
+    <path d="M240 267 Q242 262 244 267"/>
+    <path d="M270 262 Q272 257 274 262"/>
+    <path d="M300 257 Q302 252 304 257"/>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="carGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e0e0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Car body -->
+  <rect x="8" y="18" width="24" height="12" fill="url(#carGradient)" rx="2"/>
+  
+  <!-- Car roof -->
+  <path d="M12 18 Q16 12 24 12 Q28 12 32 18" fill="url(#carGradient)"/>
+  
+  <!-- Windows -->
+  <path d="M13 17 Q16 14 24 14 Q27 14 31 17 L31 18 L13 18 Z" fill="#87CEEB" opacity="0.7"/>
+  
+  <!-- Wheels -->
+  <circle cx="14" cy="30" r="3" fill="#333333"/>
+  <circle cx="26" cy="30" r="3" fill="#333333"/>
+  
+  <!-- Wheel rims -->
+  <circle cx="14" cy="30" r="1.5" fill="#666666"/>
+  <circle cx="26" cy="30" r="1.5" fill="#666666"/>
+  
+  <!-- Headlights -->
+  <circle cx="32" cy="22" r="1" fill="#FFFF99"/>
+  <circle cx="32" cy="26" r="1" fill="#FFFF99"/>
+  
+  <!-- Parking lines -->
+  <rect x="4" y="35" width="32" height="2" fill="#ffffff" opacity="0.8"/>
+  <rect x="4" y="3" width="32" height="2" fill="#ffffff" opacity="0.8"/>
+  <rect x="2" y="5" width="2" height="30" fill="#ffffff" opacity="0.8"/>
+  <rect x="36" y="5" width="2" height="30" fill="#ffffff" opacity="0.8"/>
+</svg>

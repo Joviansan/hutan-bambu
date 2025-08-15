@@ -1,0 +1,73 @@
+<svg width="300" height="250" viewBox="0 0 300 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d0e8d0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bamboo1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a7c59;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d5016;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="250" fill="url(#bg1)"/>
+  
+  <!-- Bambu rapat -->
+  <rect x="20" y="20" width="8" height="200" fill="url(#bamboo1)" rx="4"/>
+  <rect x="35" y="15" width="8" height="205" fill="url(#bamboo1)" rx="4"/>
+  <rect x="50" y="25" width="8" height="195" fill="url(#bamboo1)" rx="4"/>
+  <rect x="65" y="10" width="8" height="210" fill="url(#bamboo1)" rx="4"/>
+  <rect x="80" y="20" width="8" height="200" fill="url(#bamboo1)" rx="4"/>
+  <rect x="95" y="18" width="8" height="202" fill="url(#bamboo1)" rx="4"/>
+  <rect x="110" y="22" width="8" height="198" fill="url(#bamboo1)" rx="4"/>
+  <rect x="125" y="12" width="8" height="208" fill="url(#bamboo1)" rx="4"/>
+  <rect x="140" y="25" width="8" height="195" fill="url(#bamboo1)" rx="4"/>
+  <rect x="155" y="15" width="8" height="205" fill="url(#bamboo1)" rx="4"/>
+  <rect x="170" y="20" width="8" height="200" fill="url(#bamboo1)" rx="4"/>
+  <rect x="185" y="18" width="8" height="202" fill="url(#bamboo1)" rx="4"/>
+  <rect x="200" y="14" width="8" height="206" fill="url(#bamboo1)" rx="4"/>
+  <rect x="215" y="22" width="8" height="198" fill="url(#bamboo1)" rx="4"/>
+  <rect x="230" y="16" width="8" height="204" fill="url(#bamboo1)" rx="4"/>
+  <rect x="245" y="20" width="8" height="200" fill="url(#bamboo1)" rx="4"/>
+  <rect x="260" y="25" width="8" height="195" fill="url(#bamboo1)" rx="4"/>
+  <rect x="275" y="18" width="8" height="202" fill="url(#bamboo1)" rx="4"/>
+  
+  <!-- Ruas bambu -->
+  <g stroke="#2d5016" stroke-width="1" opacity="0.8">
+    <line x1="20" y1="60" x2="28" y2="60"/>
+    <line x1="20" y1="100" x2="28" y2="100"/>
+    <line x1="20" y1="140" x2="28" y2="140"/>
+    <line x1="20" y1="180" x2="28" y2="180"/>
+    
+    <line x1="50" y1="65" x2="58" y2="65"/>
+    <line x1="50" y1="105" x2="58" y2="105"/>
+    <line x1="50" y1="145" x2="58" y2="145"/>
+    <line x1="50" y1="185" x2="58" y2="185"/>
+    
+    <line x1="80" y1="60" x2="88" y2="60"/>
+    <line x1="80" y1="100" x2="88" y2="100"/>
+    <line x1="80" y1="140" x2="88" y2="140"/>
+    <line x1="80" y1="180" x2="88" y2="180"/>
+    
+    <line x1="110" y1="62" x2="118" y2="62"/>
+    <line x1="110" y1="102" x2="118" y2="102"/>
+    <line x1="110" y1="142" x2="118" y2="142"/>
+    <line x1="110" y1="182" x2="118" y2="182"/>
+  </g>
+  
+  <!-- Daun bambu -->
+  <g fill="#4a7c59" opacity="0.7">
+    <path d="M28 30 Q33 25 38 30 Q33 40 28 45 Q23 35 28 30"/>
+    <path d="M58 35 Q63 30 68 35 Q63 45 58 50 Q53 40 58 35"/>
+    <path d="M88 25 Q93 20 98 25 Q93 35 88 40 Q83 30 88 25"/>
+    <path d="M118 32 Q123 27 128 32 Q123 42 118 47 Q113 37 118 32"/>
+    <path d="M148 40 Q153 35 158 40 Q153 50 148 55 Q143 45 148 40"/>
+    <path d="M178 28 Q183 23 188 28 Q183 38 178 43 Q173 33 178 28"/>
+    <path d="M208 24 Q213 19 218 24 Q213 34 208 39 Q203 29 208 24"/>
+    <path d="M238 36 Q243 31 248 36 Q243 46 238 51 Q233 41 238 36"/>
+  </g>
+  
+  <!-- Ground shadow -->
+  <ellipse cx="150" cy="235" rx="130" ry="10" fill="#2d5016" opacity="0.3"/>
+</svg>

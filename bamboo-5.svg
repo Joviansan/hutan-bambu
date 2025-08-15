@@ -1,0 +1,87 @@
+<svg width="300" height="250" viewBox="0 0 300 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f8f0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bamboo5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a7c59;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d5016;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="mist" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="250" fill="url(#bg5)"/>
+  
+  <!-- Mist effect -->
+  <ellipse cx="150" cy="125" rx="150" ry="100" fill="url(#mist)"/>
+  
+  <!-- Bambu dengan kabut pagi -->
+  <g opacity="0.8">
+    <rect x="20" y="60" width="10" height="160" fill="url(#bamboo5)" rx="5"/>
+    <rect x="40" y="50" width="10" height="170" fill="url(#bamboo5)" rx="5"/>
+    <rect x="60" y="55" width="10" height="165" fill="url(#bamboo5)" rx="5"/>
+    <rect x="80" y="45" width="10" height="175" fill="url(#bamboo5)" rx="5"/>
+    <rect x="100" y="50" width="10" height="170" fill="url(#bamboo5)" rx="5"/>
+    <rect x="120" y="40" width="10" height="180" fill="url(#bamboo5)" rx="5"/>
+    <rect x="140" y="55" width="10" height="165" fill="url(#bamboo5)" rx="5"/>
+    <rect x="160" y="45" width="10" height="175" fill="url(#bamboo5)" rx="5"/>
+    <rect x="180" y="50" width="10" height="170" fill="url(#bamboo5)" rx="5"/>
+    <rect x="200" y="60" width="10" height="160" fill="url(#bamboo5)" rx="5"/>
+    <rect x="220" y="55" width="10" height="165" fill="url(#bamboo5)" rx="5"/>
+    <rect x="240" y="45" width="10" height="175" fill="url(#bamboo5)" rx="5"/>
+    <rect x="260" y="50" width="10" height="170" fill="url(#bamboo5)" rx="5"/>
+    <rect x="280" y="65" width="10" height="155" fill="url(#bamboo5)" rx="5"/>
+  </g>
+  
+  <!-- Ruas bambu samar -->
+  <g stroke="#2d5016" stroke-width="1" opacity="0.5">
+    <line x1="20" y1="100" x2="30" y2="100"/>
+    <line x1="20" y1="140" x2="30" y2="140"/>
+    <line x1="20" y1="180" x2="30" y2="180"/>
+    
+    <line x1="60" y1="95" x2="70" y2="95"/>
+    <line x1="60" y1="135" x2="70" y2="135"/>
+    <line x1="60" y1="175" x2="70" y2="175"/>
+    
+    <line x1="100" y1="90" x2="110" y2="90"/>
+    <line x1="100" y1="130" x2="110" y2="130"/>
+    <line x1="100" y1="170" x2="110" y2="170"/>
+    
+    <line x1="140" y1="95" x2="150" y2="95"/>
+    <line x1="140" y1="135" x2="150" y2="135"/>
+    <line x1="140" y1="175" x2="150" y2="175"/>
+  </g>
+  
+  <!-- Daun dengan efek kabut -->
+  <g fill="#4a7c59" opacity="0.4">
+    <path d="M30 70 Q35 65 40 70 Q35 80 30 85 Q25 75 30 70"/>
+    <path d="M70 65 Q75 60 80 65 Q75 75 70 80 Q65 70 70 65"/>
+    <path d="M110 60 Q115 55 120 60 Q115 70 110 75 Q105 65 110 60"/>
+    <path d="M150 65 Q155 60 160 65 Q155 75 150 80 Q145 70 150 65"/>
+    <path d="M190 70 Q195 65 200 70 Q195 80 190 85 Q185 75 190 70"/>
+    <path d="M230 65 Q235 60 240 65 Q235 75 230 80 Q225 70 230 65"/>
+    <path d="M270 70 Q275 65 280 70 Q275 80 270 85 Q265 75 270 70"/>
+  </g>
+  
+  <!-- Tetesan embun -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="35" cy="120" r="1"/>
+    <circle cx="75" cy="110" r="1.5"/>
+    <circle cx="115" cy="125" r="1"/>
+    <circle cx="155" cy="115" r="1.2"/>
+    <circle cx="195" cy="130" r="1"/>
+    <circle cx="235" cy="120" r="1.3"/>
+    <circle cx="275" cy="135" r="1"/>
+  </g>
+  
+  <!-- Ground dengan kabut -->
+  <path d="M0 200 Q75 190 150 195 Q225 190 300 200 L300 250 L0 250 Z" fill="#8B4513" opacity="0.3"/>
+  
+  <!-- Kabut ground -->
+  <ellipse cx="150" cy="220" rx="120" ry="15" fill="#ffffff" opacity="0.4"/>
+</svg>

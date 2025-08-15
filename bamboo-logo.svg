@@ -1,0 +1,33 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bambooGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a7c59;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d5016;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Batang bambu utama -->
+  <rect x="15" y="5" width="4" height="30" fill="url(#bambooGradient)" rx="2"/>
+  <rect x="21" y="8" width="4" height="27" fill="url(#bambooGradient)" rx="2"/>
+  <rect x="9" y="10" width="4" height="25" fill="url(#bambooGradient)" rx="2"/>
+  
+  <!-- Ruas bambu -->
+  <line x1="15" y1="12" x2="19" y2="12" stroke="#2d5016" stroke-width="1"/>
+  <line x1="15" y1="20" x2="19" y2="20" stroke="#2d5016" stroke-width="1"/>
+  <line x1="15" y1="28" x2="19" y2="28" stroke="#2d5016" stroke-width="1"/>
+  
+  <line x1="21" y1="15" x2="25" y2="15" stroke="#2d5016" stroke-width="1"/>
+  <line x1="21" y1="23" x2="25" y2="23" stroke="#2d5016" stroke-width="1"/>
+  <line x1="21" y1="31" x2="25" y2="31" stroke="#2d5016" stroke-width="1"/>
+  
+  <line x1="9" y1="17" x2="13" y2="17" stroke="#2d5016" stroke-width="1"/>
+  <line x1="9" y1="25" x2="13" y2="25" stroke="#2d5016" stroke-width="1"/>
+  <line x1="9" y1="33" x2="13" y2="33" stroke="#2d5016" stroke-width="1"/>
+  
+  <!-- Daun bambu -->
+  <path d="M19 8 Q22 6 25 8 Q22 10 19 8" fill="#4a7c59"/>
+  <path d="M25 11 Q28 9 31 11 Q28 13 25 11" fill="#4a7c59"/>
+  <path d="M13 13 Q16 11 19 13 Q16 15 13 13" fill="#4a7c59"/>
+  <path d="M7 16 Q10 14 13 16 Q10 18 7 16" fill="#4a7c59"/>
+  <path d="M25 18 Q28 16 31 18 Q28 20 25 18" fill="#4a7c59"/>
+</svg>
